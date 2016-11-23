@@ -1,0 +1,1 @@
+docker run -p 5353:53/udp -v /tmp/sixeleven:/sixeleven -d fflo/sixeleven-dnsseed -h dnsseed.611.to -n MYHOST.611.to -m doesnotexist.dnsseed.611.to
